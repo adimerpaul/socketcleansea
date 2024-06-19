@@ -1,6 +1,6 @@
-# Carnaval (carnaval)
+# cleanses (cleasn)
 
-Carnaval
+cleanses
 
 ## Install the dependencies
 ```bash
