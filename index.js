@@ -14,6 +14,11 @@ io.on("connection", (socket) => {
     socket.on('chat', (msg) => {
         io.emit('chat', msg);
     });
+
+    socket.on('chat-voucher', (msg) => {
+        console.log('voucher', msg);
+        io.emit('chat-voucher', msg);
+    });
 });
 
 const PORT = process.env.PORT || 3000;
